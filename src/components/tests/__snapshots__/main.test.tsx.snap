@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the component 1`] = `
+<main
+  role="main"
+>
+  <mock-jumbotron />
+  <div
+    className="album py-5 bg-dark"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <mock-card />
+        <mock-card />
+        <mock-card />
+        <mock-card />
+        <mock-card />
+        <mock-card />
+        <mock-card />
+        <mock-card />
+        <mock-card />
+      </div>
+    </div>
+  </div>
+</main>
+`;
