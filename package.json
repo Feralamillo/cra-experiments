@@ -3,6 +3,8 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.5.0",
+    "node-sass": "^4.14.1",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
@@ -71,13 +73,11 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
       "!src/**/*.d.ts",
-      "!src/index.tsx",
-      "!src/serviceWorker.ts"
+      "!src/index.tsx"
     ],
     "coveragePathIgnorePatterns": [
       "./src/*/*.types.{ts,tsx}",
-      "./src/index.tsx",
-      "./src/serviceWorker.ts"
+      "./src/index.tsx"
     ],
     "coverageReporters": [
       "json",

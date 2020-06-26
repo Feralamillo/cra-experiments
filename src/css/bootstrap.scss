@@ -1,0 +1,7 @@
+@import './colours.scss';
+
+$theme-colors: (
+  'dark': $dingyDungeon,
+);
+
+@import 'node_modules/bootstrap/scss/bootstrap';
